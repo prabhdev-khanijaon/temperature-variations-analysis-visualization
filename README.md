@@ -1,43 +1,77 @@
-# Temperature Variations Analysis & Visualization
+# Weather Data Analysis Project
+## Overview
+This project analyzes and visualizes weather data from various locations, including Death Valley, Sitka, and San Francisco. The focus is on understanding temperature variations, daily highs and lows, and precipitation levels. The project aims to showcase data analysis skills such as data parsing, handling missing data, and creating informative visualizations using Matplotlib.
 
-# Overview
-Welcome to the Temperature Variations Analysis & Visualization project! This repository contains a Python application that analyzes and visualizes temperature variations between two dissimilar environments. The goal is to provide insights into how temperature fluctuates in different settings, which can be valuable for environmental studies, energy management, urban planning, and more.
+## Skills Demonstrated
+Data Wrangling: Parsing and extracting useful information from CSV files.
 
-# Project Motivation
-Understanding temperature variations is crucial for various industries and research fields. By comparing temperature data from two distinct environments (e.g., urban vs. rural, coastal vs. inland), we can:
+Data Visualization: Using Matplotlib to create informative visualizations of temperature and rainfall trends.
 
-Identify Climate Patterns: Detect trends and anomalies in temperature data.
+Handling Missing Data: Implementing error handling to manage incomplete datasets.
 
-Support Decision-Making: Inform policies related to energy consumption, infrastructure development, and environmental conservation.
+## Key Features
+### Daily High and Low Temperature Analysis:
 
-Enhance Predictive Models: Improve weather forecasting and climate change models.
+Visualizes temperature trends for multiple locations, highlighting daily high and low temperatures.
 
-# Features
-Data Collection: Import temperature data from CSV files or APIs.
+Locations analyzed: Death Valley, CA; Sitka, AK; and San Francisco, CA.
 
-Data Cleaning: Handle missing values and outliers to ensure data integrity.
+### Rainfall Visualization:
 
-Data Visualization:
+Visualizes daily rainfall data for Sitka, showcasing precipitation trends throughout 2021.
 
-Plotly: Generate interactive plots with zooming and hovering capabilities.
+### Handling Missing Data:
 
-Comparative Analysis:
+The project includes handling missing data points, ensuring robustness in real-world data scenarios.
 
-Compare temperature variations between the two environments side by side.
+## Technologies Used
+Python: Primary programming language for data manipulation and visualization.
 
-Visualize correlations and differences over time.
+Matplotlib: For creating visualizations of temperature and rainfall trends.
 
-# Technologies Used
-Python 3.12.3
+CSV: Data files are processed using Python’s CSV module.
 
-Plotly: Interactive data visualization.
+Pathlib: For file handling and reading data from CSV files.
 
-# Potential Applications
-Energy Management: Optimize heating and cooling strategies based on temperature trends.
+## Future Improvements
+Real-time Data Integration: Integrating real-time weather data to keep the analysis updated.
 
-Environmental Research: Study the impact of urbanization on local climates.
+Interactive Visualizations: Using libraries such as Plotly for creating interactive graphs.
 
-Agriculture: Plan agricultural activities by understanding temperature patterns.
+Additional Locations: Expanding the analysis to cover more geographical locations.
 
-Public Policy: Inform policy decisions related to climate change and sustainability.
+## Data Sources
+Weather Data: The weather data for this project is sourced from various CSV files containing daily temperature and precipitation information for the respective locations.
+
+## How to Run
+### Clone the repository:
+
+bash
+
+Copy code
+
+git clone https://github.com/your-username/weather-data-analysis.git
+
+### Install dependencies:
+
+This project requires Python and Matplotlib. Install the required packages using:
+
+bash
+
+Copy code
+
+pip install matplotlib
+
+### Run the Python scripts:
+
+You can run each script to visualize weather data from different locations. For example, to analyze Death Valley's temperature data, use:
+
+bash
+
+Copy code
+
+python death_valley_highs_lows.py
+
+### Similarly, you can run the other scripts to generate visualizations for Sitka and San Francisco weather data.
+
 
